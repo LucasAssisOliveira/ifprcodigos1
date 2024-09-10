@@ -7,6 +7,25 @@
 </head>
 <body>
     <h1>Login</h1>
-    <h1>Oi</h1>
+    <hr>
+    <form action="login.php" method="post"> <!--Esse actionn é apenas um exemplo-->
+        <p>
+            <label for="login_usuario"></label>
+            <input name="login_usuario" type="text" />
+        </p>
+        <p>
+            <label for="login_senha"></label><br>
+            <input name="login_senha" type="password" /><br><br>
+        </p>
+        <p>
+            <label>
+                <input name="manterlogado" type="checkbox" /> Manter logado
+            </label>
+        </p>
+
+        <p> <button type="submit">Login</button> </p>
+        <p> <a href="#URL">Usuário novo?</a></p>
+        <p> <a href="#URL">Esqueceu a senha?</a></p>
+    </form>
 </body>
 </html>
