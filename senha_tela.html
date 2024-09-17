@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
+    <title>Redefinir Senha</title>
     <style>
         form{
             text-align: center;
@@ -31,14 +31,18 @@
     </style>
 </head>
 <body>
-    <h1>Login</h1>
+    <h1>Redefinir a senha:</h1>
     <form action="login.php" method="post"> <!--Esse action é apenas um exemplo-->
         <p>
             <label for="login_usuario">Nome de Usuário:</label><br>
             <input name="login_usuario" type="text" required/>
         </p>
         <p>
-            <label for="login_senha">Senha:</label><br>
+            <label for="login_senha">Nova senha:</label><br>
+            <input name="login_senha" type="password" required/>
+        </p>
+        <p></p>
+            <label for="login_senha">Repita a senha:</label><br>
             <input name="login_senha" type="password" required/>
         </p>
         <p>
@@ -48,8 +52,7 @@
         </p>
 
         <p> <button type="submit">Login</button> </p>
-        <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Ainda não tem conta?</a></p>
-        <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Esqueceu a senha?</a></p>
+        <p> <a href="#URL">Ainda não tem conta?</a></p>
     </form>
 </body>
 </html>
